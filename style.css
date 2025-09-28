@@ -21,7 +21,7 @@ body{
     height: 100vh;
     width: 100%;
     margin: 0 auto;
-   background-color: rgba(210, 206, 206, 0.414);
+   background-color: rgba(230 226 226 / 47%);
    position: relative;
    margin-top: 100px;
 }
@@ -54,18 +54,15 @@ nav{
     width: 60px;
     height: 60px;
     border-radius: 15px;
-    transition-duration: 0.5s;
+    transition-duration: 0.2s;
 }
 
 .logo img:hover{
     cursor: pointer;
-    width: 65px;
-    height: 65px;
-    border-radius: 20px;
+    width: 62px;
+    height: 62px;
+    border-radius: 15px;
 }
-
-
-
 
 
 .menu{
@@ -86,7 +83,7 @@ nav{
     font-size: 1rem;
     font-weight: bold;
     position: relative;
-   transition-duration: 0.5s;
+   transition-duration: 1s;
 }
 
 .home{
@@ -105,51 +102,10 @@ width: 130px;
     width: 105px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .menu a:hover{
 color: red;
 font-size: 1.1rem;
 }
-
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .registration{
@@ -176,17 +132,18 @@ font-size: 1.1rem;
     background-color: rgb(255, 98, 0);
  
     box-shadow: -2px -2px 5px 0px rgba(0, 0, 0, 0.2);
-    transition-duration: 0.5s;
+    transition-duration: 1s;
 }
 .login a {
     text-decoration: none;
     color: white;
+
 }
 .login:hover{
     cursor: pointer;
     
     background-color: rgb(255, 0, 0);
-    font-size: 1.1rem;
+    font-size: 0.9em;
    
 }
 .signup {
@@ -194,7 +151,7 @@ font-size: 1.1rem;
     color: rgb(0, 0, 0);
     box-shadow: -2px -2px 5px 0px rgba(0, 0, 0, 0.2);
     
-    transition-duration: 0.5s;
+    transition-duration: 1s;
 }
 .signup a {
     text-decoration: none;
@@ -205,6 +162,119 @@ font-size: 1.1rem;
     cursor: pointer;
    
     background-color: rgb(255, 0, 0);
-    font-size: 1.1rem;
+    font-size: 0.9em;
    
+}
+
+
+
+
+
+.main{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.start{
+    width: 100%;
+    height: 650px;
+    padding: 50px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.171);
+    display: flex;
+
+}
+.gourment{
+    width: 60%;
+    height: 90%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.premium{
+width: 150px;
+height: 30px;
+padding: 5px;
+padding-left: 20px;
+background-color: rgba(145, 145, 145, 0.574);
+border-radius: 10px;
+font-size: 1rem;
+
+
+
+
+}
+.maintext{
+    width: 100%;
+    height: 200px;
+    /* background-color: wheat; */
+    font-size: 5rem;
+}
+.subline{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    gap: 3em;
+}
+.btn button{
+    width: 270px;
+    height: 50px;
+
+}
+.btn button a{
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.order{
+    border: none;
+    background-color: red;
+box-shadow: -2px -2px 5px 0px rgba(0, 0, 0, 0.2);
+ border-radius: 10px;
+ transition-duration: 1s;
+}
+.order:hover {
+    cursor: pointer;
+
+    background-color: rgb(255, 0, 0);
+    font-size: 0.8em;
+
+}
+.explore{
+   width: 300px;
+    border: 3px solid rgba(255, 0, 0, 0.667);
+    border-radius: 10px;
+    background-color: rgba(162, 159, 159, 0.363);
+    color: black;
+   
+
+}
+.limg{
+    width: 40%;
+    height: 90%;
+    background-color: green;
+    border-radius: 40px;
+}
+.limg img{
+    width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-image-repeat: none;
+        border-radius: 40px;
+        transition-duration: 1s;
+}
+.limg img:hover{
+    width: 105%;
+    height: 105%;
+    object-fit: cover;
+        border-image-repeat: none;
+        border-radius: 40px;
 }
