@@ -83,7 +83,7 @@ nav{
     font-size: 1rem;
     font-weight: bold;
     position: relative;
-   transition-duration: 1s;
+   transition-duration: 0.4s;
 }
 
 .home{
@@ -132,7 +132,7 @@ font-size: 1.1rem;
     background-color: rgb(255, 98, 0);
  
     box-shadow: -2px -2px 5px 0px rgba(0, 0, 0, 0.2);
-    transition-duration: 1s;
+    transition-duration: 0.4s;
 }
 .login a {
     text-decoration: none;
@@ -151,7 +151,7 @@ font-size: 1.1rem;
     color: rgb(0, 0, 0);
     box-shadow: -2px -2px 5px 0px rgba(0, 0, 0, 0.2);
     
-    transition-duration: 1s;
+    transition-duration: 0.4s;
 }
 .signup a {
     text-decoration: none;
@@ -187,29 +187,40 @@ font-size: 1.1rem;
 .gourment{
     width: 60%;
     height: 90%;
-    /* background-color: aquamarine; */
     display: flex;
     flex-direction: column;
     gap: 1em;
 }
 
 .premium{
-width: 150px;
+width: 200px;
 height: 30px;
-padding: 5px;
-padding-left: 20px;
-background-color: rgba(145, 145, 145, 0.574);
+padding-left: 10px;
+background-color: rgba(136, 148, 150, 0.574);
 border-radius: 10px;
 font-size: 1rem;
-
+display: flex;
+align-items: center;
+gap: 10px;
 
 
 
 }
+.premium img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 5px;
+background-color: rgba(136, 148, 150, 0.574);
+    z-index: -1;
+}
+
+
+
+
 .maintext{
     width: 100%;
     height: 200px;
-    /* background-color: wheat; */
     font-size: 5rem;
 }
 .subline{
@@ -239,7 +250,7 @@ font-size: 1rem;
     background-color: red;
 box-shadow: -2px -2px 5px 0px rgba(0, 0, 0, 0.2);
  border-radius: 10px;
- transition-duration: 1s;
+ transition-duration: 0.4s;
 }
 .order:hover {
     cursor: pointer;
@@ -260,7 +271,7 @@ box-shadow: -2px -2px 5px 0px rgba(0, 0, 0, 0.2);
 .limg{
     width: 40%;
     height: 90%;
-    background-color: green;
+   
     border-radius: 40px;
 }
 .limg img{
@@ -269,12 +280,250 @@ box-shadow: -2px -2px 5px 0px rgba(0, 0, 0, 0.2);
         object-fit: cover;
         border-image-repeat: none;
         border-radius: 40px;
-        transition-duration: 1s;
+        transition-duration: 0.4s;
 }
 .limg img:hover{
-    width: 105%;
-    height: 105%;
+    width: 101%;
+    height: 101%;
     object-fit: cover;
         border-image-repeat: none;
         border-radius: 40px;
 }
+
+.whyfoodies{
+    width: 100%;
+    height: 450px;
+     border-bottom: 2px solid rgba(128, 128, 128, 0.171);
+    
+}
+
+.mainfoodie{
+    margin-top: 100px;
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.mainfoodie h1 p {
+    width: 100%;
+
+}
+
+.mainfoodie h1{
+    font-size: 2.5rem;
+    font-family: "Montserrat", sans-serif;                                  
+}
+
+.mainfoodie p {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.foodiecond {
+
+    width: 100%;
+    display: flex;
+    
+   
+    
+}
+.rated1,.rated2,.rated3{
+    margin-top: 30px;
+    width: 355px;
+    height: 200px;
+    border-radius: 20px;
+   
+
+    background-color: white;
+    box-shadow: -2px -2px 20px -3px rgba(0, 0, 0, 0.421);
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    gap: 20px;
+    transition-duration: 0.4s;
+}
+
+.rated1 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+.rated2 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+.rated3 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.rated1 p,
+.rated2 p,
+.rated3 p{
+    color: rgba(128, 128, 128, 0.982);
+}
+
+
+.rated1{
+    margin-right: 20px;
+    padding: 10px;
+}
+.rated2{
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 5px;
+}
+.rated3{
+    margin-left: 20px;
+    padding: 10px;
+    
+}
+.rated1:hover{
+width: 345px;
+height: 190px;
+margin-right: 25px;
+margin-left: 5px;
+border-radius: 20px;
+}
+.rated2:hover{
+width: 345px;
+height: 190px;
+margin-right: 45px;
+margin-left: 45px;
+border-radius: 20px;
+
+}
+.rated3:hover{
+    width: 345px;
+        height: 190px;
+        margin-left: 25px;
+        margin-right: 5px;
+        border-radius: 20px;
+       
+}
+.featuresr{
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+  
+
+}
+.featuresr h2{
+    font-size: 2.5rem;
+    margin: 50px;
+    margin-left: 0;
+    font-family: "Montserrat", sans-serif;                                  
+}
+.featurecart{
+    width: 100%;
+    height: 70%;
+    display: flex;
+
+}
+.fcart1{
+    width: 25%;
+    height: 90%;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: -2px -2px 20px -3px rgba(0, 0, 0, 0.421);
+    margin-right: 20px;
+    transition-duration: 0.4;
+   background-color: white;
+}
+.fcart2{
+    width: 25%;
+    height: 90%;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: -2px -2px 20px -3px rgba(0, 0, 0, 0.421);
+    margin-right:20px;
+    margin-left: 20px;
+    transition-duration: 0.4;
+    background-color: white;
+ 
+}
+.fcart3{
+    width: 25%;
+    height: 90%;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: -2px -2px 20px -3px rgba(0, 0, 0, 0.421);
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: white;
+    transition-duration: 0.4;
+   
+}
+.fcart4{
+    width: 25%;
+    height: 90%;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: -2px -2px 20px -3px rgba(0, 0, 0, 0.421);
+    margin-left: 20px;
+    transition-duration: 0.4;
+    background-color: white;
+  
+}
+.fcart1:hover{
+    width: 24%;
+    height: 89%;
+     padding: 15px;
+    margin-left: 5px;
+    margin-right: 26px;
+}
+.fcart2:hover{
+    width: 24%;
+    height: 89%;
+   
+    margin-left: 26px;
+    margin-right: 25px;
+}
+.fcart3:hover{
+    width: 24%;
+    height: 89%;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.fcart4:hover{
+    width: 24%;
+    height: 89%;
+    margin-left: 25px;
+    margin-right: 5px;
+}
+
+.fcart1 img,.fcart2 img,.fcart3 img,.fcart4 img {
+    width: 100%;
+    height: 60%;
+    margin-bottom: 20px;
+    background-color: aqua;
+    border-radius: 30px;
+    object-fit: cover;
+}
+.fcart1 h5 ,
+.fcart2 h5,
+.fcart3 h5,
+.fcart4 h5{
+    font-size: 2rem;
+    font-weight: 100;
+    width: 100%;
+    height: 15%;
+    color: rgb(77, 76, 76);
+    margin-bottom: 10px;
+}
+
+.fcart1 p,
+.fcart2 p,
+.fcart3 p,
+.fcart4 p {
+    height: 10%;
+    width: 100%;
+    font-size: 1.4em;
+    color: rgb(128, 128, 128);
+}
+
