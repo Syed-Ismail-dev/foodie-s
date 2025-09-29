@@ -587,7 +587,7 @@ footer{
         margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    color: red;
+    color: rgba(255, 85, 0, 0.767);
     font-size: 1.5rem;
   
 }
