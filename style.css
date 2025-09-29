@@ -527,3 +527,136 @@ border-radius: 20px;
     color: rgb(128, 128, 128);
 }
 
+
+footer{
+    border-top: 2px solid rgba(139, 137, 137, 0.385);
+    width: 100vw;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+}
+
+.foter{
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.ftmg{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 5px;
+    
+    margin-top: 50px;
+    border: 2px solid red;
+    border-radius: 5px;
+    /* background-color: black; */
+}
+.ftmg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0) saturate(100%) invert(15%) sepia(99%) saturate(7051%) hue-rotate(4deg) brightness(100%) contrast(107%);
+}
+.ftname{
+    width: 200px;
+        height: 50px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+ 
+}
+
+.ftname h5 {
+    font-family: "Montserrat", sans-serif;
+        font-size: 1rem;
+        font-weight: bold;
+}
+.ftname p {
+    font-family: "Tangerine", sans-serif;
+    font-size: 1.5em;
+}
+.ftreturn, .fotreturn{
+    width: 400px;
+        
+        margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: red;
+    font-size: 1.5rem;
+  
+}
+
+.contacts{
+    width: 100%;
+    padding: 0 30em;
+    display: flex;
+    flex-direction: row;
+ gap: 25em;
+
+}
+.email {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+
+}
+.email img{
+    width: 50px;
+        height: 50px;
+object-fit: cover;
+filter: brightness(0) saturate(100%) invert(15%) sepia(99%) saturate(7051%) hue-rotate(4deg) brightness(100%) contrast(107%);
+}
+.phone {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.phone img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    filter: brightness(0) saturate(100%) invert(15%) sepia(99%) saturate(7051%) hue-rotate(4deg) brightness(100%) contrast(107%);
+}
+.logos{
+    display: flex;
+    margin: 0 43em;
+    flex-direction: row;
+    gap: 2em;
+}
+.logos img{
+    width: 30px;
+        height: 30px;
+        object-fit: cover;
+        filter: brightness(0) saturate(100%) invert(15%) sepia(99%) saturate(7051%) hue-rotate(4deg) brightness(100%) contrast(107%);
+}
+
+
+
+footer span{
+    width: 100%;
+    height: 3rem;
+    margin-left: 40em;
+    margin-right: 15em;
+    color: grey;
+}
+footer span img {
+    width: 153x;
+    height: 13px;
+    border-radius: 5px;
+    background-color: gray;
+    z-index: -1;
+}
